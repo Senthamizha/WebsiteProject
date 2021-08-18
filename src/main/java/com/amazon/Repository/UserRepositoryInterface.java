@@ -6,4 +6,6 @@ public interface UserRepositoryInterface {
 
 	UserDetails getUser(String name);
 	
+	UserDetails saveUser(UserDetails userDetails);
+	
 }
